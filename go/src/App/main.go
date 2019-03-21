@@ -2,12 +2,13 @@ package main
 
 import (
    "encoding/json"
+   "fmt"
    "log"
    "net/http"
    "strings"
    "strconv"
 
-   "github.com/httprouter"
+   "github.com/julienschmidt/httprouter"
    "github.com/gocolly/colly"
 )
 
